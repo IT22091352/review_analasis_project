@@ -4,7 +4,7 @@ import re
 import string
 import pickle
 
-from nltk.stem import PorterStemmer
+from nltk.stem import PorterStemmer # type: ignore
 ps = PorterStemmer()
 
 # load model
